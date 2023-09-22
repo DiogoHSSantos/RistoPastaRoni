@@ -1,0 +1,21 @@
+.logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+}
+
+.logoArea .logo{
+    background-image: url('https://play-lh.googleusercontent.com/QZFR_4xreirxaWya9C_SEzo0ZmIvh3so-PsM1gT3HthVWFGnYKodhn6DjtlvkBfYwQ');
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoArea h1{
+    font-size: 24px;
+    color: #E4E4E4;
+}
