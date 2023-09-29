@@ -6,25 +6,25 @@ import App from './pages/App'
 
 import{ createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Contato from './routes/Contato';
 import Sobre from './routes/Sobre';
 import Carrinho from './routes/Carrinho';
+import Contato from './routes/Contato';
 
 const router = createBrowserRouter([
   {
-    path: 'RistoPastaRoni',
+    path: '/RistoPastaRoni',
     element: <App/>,
   },
   {
-    path: 'RistoPastaRoni/Contato',
+    path: '/RistoPastaRoni/Contato',
     element: <Contato/>
   },
   {
-    path: 'RistoPastaRoni/Sobre',
+    path: '/RistoPastaRoni/Sobre',
     element: <Sobre/>
   },
   {
-    path: 'RistoPastaRoni/Carrinho',
+    path: '/RistoPastaRoni/Carrinho',
     element: <Carrinho/>
   }
 ]);
