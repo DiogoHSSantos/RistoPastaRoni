@@ -8,10 +8,10 @@ export const Contato = ()=>{
     return(
         <div className='container-contact-area'>
             <HeaderRoutes 
-                primeiraRota='/' 
+                primeiraRota='/RistoPastaRoni' 
                 logoPrimeiraRota='bx bx-left-arrow-alt' 
                 tituloHeader='Contato' 
-                segundaRota='/Sobre' 
+                segundaRota='/RistoPastaRoni/Sobre' 
                 logoSegundaRota='bx bxs-user' 
             />
 

@@ -6,7 +6,7 @@ export const HeaderCarrinho = ()=>{
         <div className='container-header-carrinho'>
             <h1 className='title-header-carrinho'>Carrinho</h1>
 
-            <Link to='/' className='Link-to-back-menu'>
+            <Link to='/RistoPastaRoni' className='Link-to-back-menu'>
                 <i className='bx bx-left-arrow-alt'></i>
             </Link>
         </div>

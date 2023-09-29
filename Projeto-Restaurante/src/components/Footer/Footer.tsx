@@ -9,8 +9,8 @@ export const Footer = ()=>{
             </div>
 
             <div className='links'>
-                <LinkToContact link='/Contato' logo='bx bxs-phone' name='- Contato' />
-                <LinkToContact link='/Sobre' logo='bx bxs-user' name='- Sobre Mim' />
+                <LinkToContact link='/RistoPastaRoni/Contato' logo='bx bxs-phone' name='- Contato' />
+                <LinkToContact link='/RistoPastaRoni/Sobre' logo='bx bxs-user' name='- Sobre Mim' />
             </div>
         </div>
     )

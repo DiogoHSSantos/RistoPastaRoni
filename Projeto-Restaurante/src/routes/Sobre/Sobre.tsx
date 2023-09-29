@@ -7,10 +7,10 @@ export const Sobre = ()=>{
     return(
         <div className='about-container-all'>
             <HeaderRoutes 
-                primeiraRota='/' 
+                primeiraRota='/RistoPastaRoni' 
                 logoPrimeiraRota='bx bx-left-arrow-alt' 
                 tituloHeader='Sobre' 
-                segundaRota='/Contato' 
+                segundaRota='/RistoPastaRoni/Contato' 
                 logoSegundaRota='bx bxs-phone' 
             />
 

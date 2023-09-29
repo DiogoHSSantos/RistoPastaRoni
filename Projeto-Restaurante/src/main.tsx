@@ -16,15 +16,15 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: 'Contato',
+    path: 'RistoPastaRoni/Contato',
     element: <Contato/>
   },
   {
-    path: 'Sobre',
+    path: 'RistoPastaRoni/Sobre',
     element: <Sobre/>
   },
   {
-    path: 'Carrinho',
+    path: 'RistoPastaRoni/Carrinho',
     element: <Carrinho/>
   }
 ]);
