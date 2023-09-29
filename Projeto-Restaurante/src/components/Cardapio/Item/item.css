@@ -89,6 +89,8 @@
     
     padding: 10px;
     border-radius: 50%;
+
+    cursor: pointer;
 }
 
 .bxs-cart-add{
@@ -98,4 +100,15 @@
 
     position: relative;
     right: 2px;
+}
+
+@media screen and (min-width: 850px){
+    .container-item-cardapio{
+        width: 250px;
+        height: 300px;
+    }
+
+    .item-menu-description{
+        font-size: 16px;
+    }
 }

@@ -1,5 +1,5 @@
+import LinkToContact from '../../routes/Contato/component/LinkToContact';
 import './footer.css';
-import { Link } from 'react-router-dom';
 
 export const Footer = ()=>{
     return(
@@ -9,8 +9,8 @@ export const Footer = ()=>{
             </div>
 
             <div className='links'>
-                <Link to='/Contato' className='link'><i className='bx bx-link'></i> Contato </Link>
-                <Link to='/Sobre' className='link'><i className='bx bx-link'></i> Sobre mim </Link>
+                <LinkToContact link='/Contato' logo='bx bxs-phone' name='- Contato' />
+                <LinkToContact link='/Sobre' logo='bx bxs-user' name='- Sobre Mim' />
             </div>
         </div>
     )

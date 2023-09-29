@@ -12,6 +12,7 @@ const App = ()=>{
   const itensDoCarrinho:object[] = [];
   const [totalDeItens, setTotalDeItens] = useState(itensDoCarrinho);
 
+
   return(
     <div className='container'>
       <Header totalDeItens={totalDeItens}/>

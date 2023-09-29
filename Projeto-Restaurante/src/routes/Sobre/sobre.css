@@ -1,0 +1,32 @@
+.about-container-all{
+    background: #101010;
+    width: 100%;
+    height: 100%;
+}
+
+.container-description-about{
+    background: #202020;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.description-about{
+    text-indent: 20px;
+    width: 70%;
+    padding: 10px;
+        
+    background: #E4E4E4;
+    color: #000;
+    font-weight: 600;
+    text-align: justify;
+    word-spacing: -1px;
+}
+
+@media screen and (min-width: 850px) {
+    .description-about{
+        font-size: 18px;
+    }
+}

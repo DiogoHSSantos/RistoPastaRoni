@@ -1,0 +1,34 @@
+.container-header-carrinho{
+    width: 100%;
+    height: 100px;
+
+    background: #E2BE82;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-header-carrinho{
+    border-bottom: 3px solid #000000;
+}
+
+.Link-to-back-menu{
+    position: absolute;
+    left: 30px;
+
+    background: #D32F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+}
+
+.bx-left-arrow-alt{
+    font-size: 32px;
+
+    color: #E4E4E4;
+}
