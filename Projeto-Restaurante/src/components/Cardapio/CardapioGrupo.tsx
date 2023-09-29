@@ -3,8 +3,8 @@ import './cardapio.css'
 import { Item } from './Item/Item'
 import { ItemDescricao } from './Item/ItemDescricao';
 import { ItemCarrinho } from './Item/ItemCarrinho';
-import { ItemImagem } from './Item/itemImagem';
-import { ItemNome } from './Item/itemNome';
+import { ItemImagem } from './Item/ItemImagem';
+import { ItemNome } from './Item/ItemNome';
 import { ItemPreco } from './Item/ItemPreco';
 
 interface CardapioGrupoProps{

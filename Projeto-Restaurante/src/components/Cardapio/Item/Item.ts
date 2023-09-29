@@ -1,8 +1,8 @@
 import { ItemRoot } from "./ItemRoot"
 import { ItemDescricao } from "./ItemDescricao"
 import { ItemCarrinho } from "./ItemCarrinho"
-import { ItemImagem } from "./itemImagem"
-import { ItemNome } from "./itemNome"
+import { ItemImagem } from "./ItemImagem"
+import { ItemNome } from "./ItemNome"
 
 
 export const Item = {

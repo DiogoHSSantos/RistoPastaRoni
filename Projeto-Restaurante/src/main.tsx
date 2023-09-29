@@ -12,7 +12,7 @@ import Carrinho from './routes/Carrinho';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: 'RistoPastaRoni',
     element: <App/>,
   },
   {
@@ -28,23 +28,6 @@ const router = createBrowserRouter([
     element: <Carrinho/>
   }
 ]);
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App/>,
-//     children: [
-//       {
-//         path: 'Contato',
-//         element: <Contato/>
-//       },
-//       {
-//         path: 'Sobre',
-//         element: <Sobre/>
-//       }
-//     ]
-//   },
-  
-// ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
